@@ -17,7 +17,7 @@
     "react-ionicons": "^4.2.0",
     "react-responsive-font-size": "^1.1.6",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.0",
+    "react-scripts": "^5.0.0",
     "react-switch": "^6.0.0",
     "routes": "^2.1.0",
     "sass": "^1.49.8",
