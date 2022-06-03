@@ -1,0 +1,26 @@
+.box__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  #f6e188;
+}
+.pinkDiv {
+    background: #ff9290;
+    width: 60%;
+}
+.blueDiv{
+    background: #90d4ff;
+    width: 50%;
+}
+ .pinkDiv, .blueDiv {
+   
+    position: absolute;
+    top: 80px;
+    left: 0;
+    -webkit-clip-path: polygon(0 0, 30% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 30% 0, 100% 100%, 0% 100%);
+}
+.box__container, .pinkDiv, .blueDiv{
+    height: 40vh;
+}
