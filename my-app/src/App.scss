@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sarabun'), url('./assets/fonts/Sarabun/Sarabun-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sarabun-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sarabun-Bold'), url('./assets/fonts/Sarabun/Sarabun-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sarabun-Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sarabun-Light'), url('./assets/fonts/Sarabun/Sarabun-Light.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: var(--bgColor);
+    margin: 0;
+    font-family: 'Sarabun';
+    
+}
+  
+.d-none{
+    display: none;
+}
+.d-block{
+    display: block;
+}
+
+.App__de{
+    background-color: aqua;
+}
+
+:root {
+    --bs-main: #918851;
+    --bs-main-hover: rgb(54, 54, 54);
+    --bs-main-line: #FFDF00;
+    --bs-main-text: #0e0e0e;
+    --bs-main-25: #5d9bf8;
+    --bs-main-headder-modal : #60acff30 ;
+    --bs-main-body: #57575721;
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    /* --bs-info: #0dcaf0; */
+    --bs-info: #E1F5FE;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: "Prompt";
+    /*  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "sans-serif", 
+    "Segoe UI Emoji", "Segoe UI Symbol", "Segoe UI Symbol"; */
+    /* --body-fonts: "Helvetica", "Arial", sans-serif; */
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(5, 4, 4, 0));
+    --primary: rgb(201, 238, 192);
+    --primary-boder: rgb(0, 114, 34);
+    --secondary: #333;
+    --errorColor: red;
+    --text-red: red;
+    --stepNumber: 6;
+    --containerWidth: 600px;
+    --bgColor: rgb(247, 247, 247);
+    --inputBorderColor: lightgray;
+}
