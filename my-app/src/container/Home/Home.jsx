@@ -7,7 +7,6 @@ const HomeIndex = () => {
       <div className='pinkDiv'></div>
       <div className='blueDiv'></div>
       <h1>Welcome to Trsury </h1>
-   
     </div>
   );
 }
